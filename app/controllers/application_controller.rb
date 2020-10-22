@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-    def hello
-        render html: "goodbye, world!"
+    def index
+        render html: "Hello, world!"
     end
 end
